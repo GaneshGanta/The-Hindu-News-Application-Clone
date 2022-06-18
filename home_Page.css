@@ -146,6 +146,11 @@
     color: #00419b;
     border: 1px solid #00419b;
     background-color: #eaeaea;
+    
+  }#right > button >a:hover{
+    color:white;
+    background-color: #00419b ;
+
   }
   #right > button:hover {
     border: transparent;

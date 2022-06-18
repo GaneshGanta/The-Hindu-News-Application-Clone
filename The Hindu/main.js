@@ -1,4 +1,14 @@
-
+document.querySelector("#one").addEventListener("click",emailPage)
+function emailPage(){
+    window.location.href="subscriptionemail.html"
+}
+document.querySelector("#button").addEventListener("click",emailPages)
+function emailPages(){
+    window.location.href="subscriptionemail1.html"
+} document.querySelector("#two").addEventListener("click",emailPagee)
+function emailPagee(){
+    window.location.href="subscriptionemail2.html"
+}
 var faq = document.getElementsByClassName("faq-page");
 var i;
 
