@@ -11,11 +11,11 @@ document.querySelector('#startClose').addEventListener('click',function(){
     document.querySelector('#menuDiv').style.display='none';
     document.querySelector('#tp').style.display='block';
     document.querySelector('body').style.backgroundColor='#f5f5f5';
-    window.location.reload();
+    window.location.href='#page';
 });
 document.querySelector('#endClose').addEventListener('click',function(){
     document.querySelector('#menuDiv').style.display='none';
     document.querySelector('#tp').style.display='block';
     document.querySelector('body').style.backgroundColor='#f5f5f5';
-    window.location.reload();
+    window.location.href='#page';
 });
