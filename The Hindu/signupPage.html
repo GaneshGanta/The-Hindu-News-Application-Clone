@@ -141,6 +141,8 @@
         if(check(obj.email)===true){
             userDetails.push(obj)
             localStorage.setItem("userInfo",JSON.stringify(userDetails))
+            alert("Sign-In Successfully")
+            window.location.href="../The Hindu/loginpage.html"
         }else{
             alert("email already exists")
         }
