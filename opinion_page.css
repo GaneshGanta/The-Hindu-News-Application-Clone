@@ -1,13 +1,20 @@
+*{
+  margin: 0px;
+
+}
 body{
-  width: 75%;
-  margin: auto;
-  font-size: 1vw;
-  background-color: #eaeaea;
-  font-family: sans-serif;
-}
-img{
-    width: 100%;
-}
+    background-color: #eaeaea;
+  }
+ #tp{
+    width: 75%;
+    margin: auto;
+    font-size: 1vw;
+    background-color: #eaeaea;
+    font-family: sans-serif;
+  }
+  #tp img{
+      width: 100%;
+  }
 
 .same:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;

@@ -10,12 +10,11 @@ document.querySelector('#menu').addEventListener('click',function(){
 document.querySelector('#startClose').addEventListener('click',function(){
     document.querySelector('#menuDiv').style.display='none';
     document.querySelector('#tp').style.display='block';
-    document.querySelector('body').style.backgroundColor='#f5f5f5';
-    window.location.href='#page';
+    document.querySelector('body').style.backgroundColor='#eaeaea';
 });
 document.querySelector('#endClose').addEventListener('click',function(){
     document.querySelector('#menuDiv').style.display='none';
     document.querySelector('#tp').style.display='block';
-    document.querySelector('body').style.backgroundColor='#f5f5f5';
+    document.querySelector('body').style.backgroundColor='#eaeaea';
     window.location.href='#page';
 });

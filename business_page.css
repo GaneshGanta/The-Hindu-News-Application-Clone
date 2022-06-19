@@ -1,11 +1,18 @@
+*{
+  margin: 0px;
+
+}
 body{
+    background-color: #eaeaea;
+  }
+ #tp{
     width: 75%;
     margin: auto;
     font-size: 1vw;
     background-color: #eaeaea;
     font-family: sans-serif;
   }
-  img{
+  #tp img{
       width: 100%;
   }
  
@@ -407,7 +414,8 @@ body{
             #topline{
                 display: flex;
                 justify-content: space-between;
-                margin-bottom: -10px;
+                margin-top: 60px;
+                /* margin-bottom: -10px; */
             }
             
            .ff{
