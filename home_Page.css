@@ -112,11 +112,20 @@
     display: flex;
     align-items: center;
   }
+  #left>p>a{
+    width:90px;
+  }
+  #left p>a{
+    font-size: 12px;
+    color:gray;
+    text-decoration: none;
+  }
   .content {
     margin-top: 12px;
   }
   #left > div:first-child > p {
     font-size: 9.5px;
+    margin-left: -10px;
   }
   #nav2 i {
     height: 22px;
@@ -126,7 +135,7 @@
     font-size: 27px;
   }
   #right {
-    width: 300px;
+    width: 310px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -138,19 +147,38 @@
     color: white;
     background-color: #00419b;
   }
+   #right > button >a{
+     color:white;
+     background-color: blue;
+   }
   #right > button:nth-child(2) {
     color: black;
     background-color: #ffc000;
   }
+  #right > button:nth-child(2)>a{
+    color:black;
+    background-color: #ffc000;
+    box-sizing: border-box;
+    padding:5px;
+  }
+  #right > button:nth-child(2)>a:hover{
+    color:white;
+    background-color: #00419b;
+  }
   #right > button:nth-child(3) {
     color: #00419b;
     border: 1px solid #00419b;
+    background-color: #eaeaea;  
+  }
+  #right > button:nth-child(3)>a{
+    color:#00419b;
     background-color: #eaeaea;
-    
-  }#right > button >a:hover{
+    box-sizing: border-box;
+    padding:3px 3.5px;
+  }
+  #right > button:nth-child(3)>a:hover{
     color:white;
     background-color: #00419b ;
-
   }
   #right > button:hover {
     border: transparent;
@@ -400,7 +428,7 @@
     background-color: white;
   }
   #con6 > div:nth-child(2) {
-    margin-left: 10px;
+    margin-left: 4px;
   }
   #con6 > div:nth-child(2) > p:first-child {
     font-size: 14px;
@@ -822,7 +850,7 @@
     margin: 30px 0px;
   }
   .foot2_same {
-    margin: 40px 40px;
+    margin: 40px 30px;
     background-color: white;
   }
   .foot2_same > p {
