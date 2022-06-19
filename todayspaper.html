@@ -11,27 +11,23 @@
         *{
             margin: 0px;
         }
+        #tp-cc{
+          width: 1000px;
+          margin: auto;
+        }
         #top1{
-            width: 1000px;
-            margin: auto;
             display: flex;
-            /* margin-top: 30px; */
 
         }
         #top1>div:first-child{
             width: 80%;
-            /* border-bottom-right-radius: 12%;
-            border-top-right-radius: 12%; */
             background-color: #2a5e88;
             height: 60px;
             display: flex;
             justify-content: space-between;
-            /* padding: 10px; */
         }
         #top1>div:last-child{
             width: 14%;
-            /* border-bottom-left-radius: 30%;
-            border-top-left-radius: 30%; */
             background-color: #2a5e88;
             height: 60px;
         }
@@ -49,10 +45,6 @@
         }
         #date{
             width: 20%;
-            /* font-size: 16px;
-            padding: 0px;
-            margin: 0px; */
-            /* height: 30px; */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -77,7 +69,6 @@
         }
 
         #content{
-            margin-left: 10%;
             width: 700px;
             margin-bottom: 20px;
         }
@@ -124,7 +115,7 @@
         #content>div:nth-child(3)>div{
             border-bottom: 1px solid;
             height: 25px;
-            width: 63%;
+            width: 61%;
             margin: 0px 10px 0px 20px;
         }
         #content>div:nth-child(3)>p{
@@ -163,6 +154,7 @@
     </style>
 </head>
 <body>
+<tp id="tp">
     <!-- header and navbar -->
     <div id="page">
          <!-- navbar of above Logo -->
@@ -294,7 +286,7 @@
     </div>
 
 <!-- content part -->
-
+    <div id="tp-cc">
     <div id="top1">
         <div>
             <div>Today's Paper</div>
@@ -356,9 +348,9 @@
             <div>Mungaru Samskritika Habba begins in Raichur</div>
         </div>
    </div>
-
-      <!-- Footer Part -->
-      <div id="foot">
+  </div>
+       <!-- Footer Part -->
+       <div id="foot">
         <!-- slider part -->
         <div id="sliding">
           <div id="top">
@@ -477,9 +469,11 @@
           </div>
         </div>
       </div>
+
+    </tp>
 </body>
 </html>
-<script>
+<script >
   document.querySelector('#collapse-tp').addEventListener('click',function(){
     text=event.target.innerText;
     if(text=='HIDE SECTION'){
@@ -491,5 +485,87 @@
       document.querySelector('#collapse-tp').innerText='HIDE SECTION';
       document.querySelector('#data-tp').style.display='block';
     }
-  })
+  });
+
+
+
+
+  // footer part js
+  //        Sliding Part
+
+let arr=[{url:"https://www.thehindu.com/incoming/pzjvi/article65338242.ece/alternates/LANDSCAPE_320/WikiLeaks_32414.jpg-063d2.jpg",
+para:"U.K. goverment approves extradition of Julian Assange to U.S, Wikileaks says he will appeal"},
+{url:"https://www.thehindu.com/incoming/4eeus1/article65512036.ece/alternates/LANDSCAPE_100/AFP_32C78Q2.jpg",
+para:"U.S says it 'condemns remarks on prophet made by BJP officials'"},
+{url:"https://www.thehindu.com/incoming/mob4i/article65532467.ece/alternates/LANDSCAPE_100/APTOPIX_Ukraine_Russia_War_99649.jpg-935c4.jpg",
+para:"Ukraine crisis: Leaders of France, Germany and Italy head for Kyivas U.S. pledges more military aid"},
+{url:"https://www.thehindu.com/incoming/xtue23/article65536509.ece/alternates/LANDSCAPE_320/2022-06-17T045048Z_1364658127_RC2FTU9ITNH0_RTRMADP_3_TRADE-WTO.JPG",
+para:"Intellectual property rights waiver falls short of expectation at WTO meeting"},
+{url:"https://www.thehindu.com/news/national/hgxi0q/article65536488.ece/alternates/LANDSCAPE_100/IMG_TH16_KRA_SHEKAWAT_2_1_6K864S6N.jpg",
+para:"BJP appoints 14-member panel to oversee Presidential polls, 'guide' MPs on voting"},
+{url:"https://www.thehindu.com/incoming/x38emt/article65529950.ece/alternates/LANDSCAPE_100/PTI06_15_2022_000163A.jpg",
+para:" Presidential polls | People may ask how Opposition will give capable PM if it can't field strong candidate ..."},
+]
+
+    //   Moving - 1
+
+let image=document.querySelector("#moving>img");
+let content=document.querySelector("#moving>p");
+let button=document.querySelectorAll("#moving>button");
+
+button[0].addEventListener("click",display_left)
+let num=0;
+
+function display_left(){
+    if(num==0){
+        num=arr.length-1;
+    }
+    else{
+        num--;
+    }
+    image.src=arr[num].url;
+    content.innerText=arr[num].para;
+}
+
+button[1].addEventListener("click",function(){
+    if(num==arr.length-1){
+        num=0;
+    }
+    else{
+        num++;
+    }
+    image.src=arr[num].url;
+    content.innerText=arr[num].para;
+});
+
+    //   Moving - 2
+
+let image2=document.querySelector("#moving2>img");
+let content2=document.querySelector("#moving2>p");
+let button2=document.querySelectorAll("#moving2>button");
+
+button2[0].addEventListener("click",display_left2)
+let num2=arr.length-1;
+
+function display_left2(){
+    if(num2==0){
+        num2=arr.length-1;
+    }
+    else{
+        num2--;
+    }
+    image2.src=arr[num2].url;
+    content2.innerText=arr[num2].para;
+}
+
+button2[1].addEventListener("click",function(){
+    if(num2==arr.length-1){
+        num2=0;
+    }
+    else{
+        num2++;
+    }
+    image2.src=arr[num2].url;
+    content2.innerText=arr[num2].para;
+});
 </script>
