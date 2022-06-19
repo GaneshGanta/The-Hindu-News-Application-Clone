@@ -896,3 +896,102 @@
    
   
   /* Trupti Section  */
+
+#trupti{
+    margin: 2% 0% 2% 0%;
+    font-size: 1vw;
+    background-color: rgb(245,245,245);
+    font-family: sans-serif;
+  }
+ #trupti img{
+      width: 100%;
+  }
+  #opan{
+    display: flex;
+    justify-content: space-between;
+
+}
+.hh{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.blue{
+    color: rgb(10, 55, 138);
+}
+#opan>div{
+margin: 5px;
+background-color: white;
+width: 20%;
+
+}
+
+#opan img+h5,#opan h5+h4,#opan h4+h6{
+  background-color: white;
+}
+#opan>div:last-child{
+    width: 33%;
+}
+#opan>div>img{
+    width: 100%;
+    padding: 0px;
+}
+#opan>div>h4,h5,p,h6{
+ 
+    padding: 0px 10px 0px 10px;
+}
+#opan>div:last-child{
+   
+    justify-content: center;
+    color: white;
+    background-color: transparent;
+}
+#opan hr{
+    border-style: dashed;
+    color: grey;
+}
+#opan>div:last-child>div{
+    padding: 10px;
+}
+#opan>div:last-child>div>img{
+    width: 100%;
+}
+#bb{
+    width: 100%;
+    }
+    #bb>div{
+    margin: 0px;
+    }
+    #bb>div:first-child{
+    background-color: rgb(19,59,90);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    }
+    #bb>div:first-child>h2{
+      background-color: rgb(19,59,90);
+      color:white;
+    }
+    #bb>div:nth-child(2){
+    background-color: rgb(19,59,90);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    #bb>div:nth-child(2)>h5,#bb>div:nth-child(2)>p{
+      background-color: rgb(19,59,90);
+      color:white;
+    }
+    #bb>div:nth-child(3){
+    background-color: rgb(19,59,90);
+    }
+    #topline>h2{
+      margin-bottom: -5px;
+      background-color:#eaeaea;;
+      padding: 5px;
+       color: #133b5a;;
+    }
+    #topline{
+      display: flex;
+      justify-content: space-between;
+      
+  }
