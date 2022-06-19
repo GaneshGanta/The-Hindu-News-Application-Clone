@@ -149,7 +149,7 @@
   }
    #right > button >a{
      color:white;
-     background-color: blue;
+     background-color: #00419b;
    }
   #right > button:nth-child(2) {
     color: black;
