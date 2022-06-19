@@ -896,3 +896,93 @@
    
   
   /* Trupti Section  */
+
+  /* #trupti{
+     
+     
+      font-size: 1vw;
+    font-family: sans-serif;
+    }
+    #trupti img{
+        width: 100%;
+    }
+  
+  #opan{
+    display: flex;
+    justify-content: space-between;
+   margin: auto;
+}
+.blue{
+    color: rgb(10, 55, 138);
+}
+#opan>div{
+margin: 5px;
+background-color: white;
+width: 20%;
+height: 500px;
+}
+#opan>div:last-child{
+    width: 33%;
+}
+#opan>div>img{
+    width: 100%;
+    padding: 0px;
+}
+#opan>div>h4,h5,p,h6{
+ 
+    padding: 0px 10px 0px 10px;
+}
+#opan>div:last-child{
+   
+    justify-content: center;
+    color: white;
+    background-color: transparent;
+}
+#opan hr{
+    border-style: dashed;
+    color: grey;
+}
+#opan>div:last-child>div{
+    padding: 10px;
+}
+#opan>div:last-child>div>img{
+    width: 100%;
+}
+#topline{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -2px;
+}
+
+#topline>h2{
+  margin-bottom: 0px;
+  background-color:#eaeaea;
+  padding: 10px;
+}
+#bb{
+  width: 100%;
+  }
+  #bb>div{
+  margin: 0px;
+  }
+  #bb>div:first-child{
+  background-color: rgb(19,59,90);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  }
+  #bb>div:first-child>h2{
+    background-color: rgb(19,59,90);
+    color:white;
+    }
+  #bb>div:nth-child(2){
+  background-color: rgb(19,59,90);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  }
+  #bb>div:nth-child(2)>h5, #bb>div:nth-child(2)>p{
+    background-color: rgb(19,59,90);
+    color:white;
+    }
+  #bb>div:nth-child(3){
+  background-color: rgb(19,59,90);
+  } */

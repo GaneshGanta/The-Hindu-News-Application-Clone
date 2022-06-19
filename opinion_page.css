@@ -1,10 +1,10 @@
 
 body{
-  width: 80%;
+  width: 75%;
   margin: auto;
   font-size: 1vw;
   background-color: rgb(245,245,245);
-  -family: sans-serif;
+  font-family: sans-serif;
 }
 
 
@@ -265,6 +265,7 @@ body{
   border-top-right-radius: 15px;
   padding-right: 15px;
 }
+
 #opinionnav>ul>li{
   margin-left: -4.8%;
 }
