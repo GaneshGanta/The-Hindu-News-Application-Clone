@@ -103,6 +103,7 @@ body{
   justify-content: space-between;
   color: gray;
   background-color: #eaeaea;
+  z-index: 4;
 }
 #left {
   position:sticky;
@@ -349,7 +350,7 @@ font-size: 15px;
 }
 #pagename{
   height: 100%;
-  width: 60%;
+  width: 100%;
  padding: 10px;
  padding-top: 0px;
  color: white;
