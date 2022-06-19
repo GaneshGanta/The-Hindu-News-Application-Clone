@@ -1,13 +1,19 @@
 
-*{
-  box-sizing: border-box;
-}
-* {
+ *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+ 
+}
+body{
+    background-color: #eaeaea;
+}
+.same:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
 }
 #page {
+  /* border: 1px solid black; */
+  height: auto;
   width: 1000px;
   margin: 15px auto;
 }
@@ -24,7 +30,8 @@
 }
 #nav1 p {
   font-size: 12px;
-  margin:0 5px;
+  margin: 0 5px;
+  background-color: #eaeaea;
 }
 #first {
   width: 300px;
@@ -34,11 +41,11 @@
 }
 #first i {
   font-size: 10px;
-  height:28px;
-  width:80px;
+  height: 28px;
+  width: 80px;
   text-align: center;
   line-height: 30px;
-  color:darkslategray;
+  color: darkslategray;
 }
 #second {
   width: 200px;
@@ -53,8 +60,8 @@
 }
 .vl {
   border-left: 1px solid gray;
-  height:28px;
-  margin-left:5px;
+  height: 28px;
+  margin-left: 5px;
 }
 #second i {
   font-size: 15px;
@@ -73,9 +80,10 @@
 }
 #logo p {
   font-size: 11px;
+  background-color: #eaeaea;
 }
 #logo > div > p:nth-child(2) {
-  color: rgb(173, 158, 158);
+  color: rgba(109, 102, 102, 0.806);
 }
 #logo > div {
   width: 300px;
@@ -86,36 +94,54 @@
 
 /* navbar 2 below Logo */
 #nav2 {
+  position: sticky;
+  top:0;
   height: 40px;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   color: gray;
+  background-color: #eaeaea;
+  z-index: 4;
 }
 #left {
+  position:sticky;
   width: 580px;
   display: flex;
   justify-content: space-between;
 }
-#left p,#left .content {
+#left p,
+#left .content {
   font-size: 12px;
+  background-color: #eaeaea;
   display: flex;
   align-items: center;
 }
-.content{
+#left>p>a{
+  width:90px;
+}
+#left p>a{
+  font-size: 12px;
+  color:gray;
+  text-decoration: none;
+}
+.content {
   margin-top: 12px;
 }
 #left > div:first-child > p {
   font-size: 9.5px;
+  margin-left: -10px;
 }
-#nav2 img {
+#nav2 i {
   height: 22px;
   width: 28px;
-  margin-top: 2px;
+  margin-top: 1px;
+  margin-left: 2px;
+  font-size: 27px;
 }
 #right {
-  width: 300px;
+  width: 310px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -127,78 +153,104 @@
   color: white;
   background-color: #00419b;
 }
+ #right > button >a{
+   color:white;
+   background-color: blue;
+ }
 #right > button:nth-child(2) {
   color: black;
   background-color: #ffc000;
 }
+#right > button:nth-child(2)>a{
+  color:black;
+  background-color: #ffc000;
+  box-sizing: border-box;
+  padding:5px;
+}
+#right > button:nth-child(2)>a:hover{
+  color:white;
+  background-color: #00419b;
+}
 #right > button:nth-child(3) {
   color: #00419b;
   border: 1px solid #00419b;
-  background-color: #f5f5f5;
+  background-color: #eaeaea;  
+}
+#right > button:nth-child(3)>a{
+  color:#00419b;
+  background-color: #eaeaea;
+  box-sizing: border-box;
+  padding:3px 3.5px;
+}
+#right > button:nth-child(3)>a:hover{
+  color:white;
+  background-color: #00419b ;
 }
 #right > button:hover {
   border: transparent;
   color: white;
   background-color: #00419b;
 }
-.elem{
+.elem {
   position: relative;
-  display:inline-block;
+  display: inline-block;
 }
-.sub-content{
+.sub-content {
   display: none;
-  position:absolute;
+  position: absolute;
   margin-top: 12px;
   margin-left: 10px;
 }
-.extra{
-  width:115px;
+.extra {
+  width: 115px;
   margin-top: 14px;
 }
-.extra2{
-  width:130px;
+.extra2 {
+  width: 130px;
 }
-.sub-content>a{
+.sub-content > a {
   text-decoration: none;
   font-size: 12px;
   background-color: white;
   display: block;
-  padding:10px 12px;
+  padding: 10px 12px;
 }
-.content:hover{
+.content:hover {
   cursor: pointer;
 }
-.sub-content a:hover{
-  color:black;
+.sub-content a:hover {
+  color: black;
   font-weight: 700;
   cursor: pointer;
 }
-.elem:hover .sub-content{
+.elem:hover .sub-content {
   display: block;
 }
 
 /* 3rd common (trending) Part */
 
-#header{
-  width:45%;
+#header {
+  width: 55%;
   font-size: 10px;
   display: flex;
   justify-content: space-between;
-  margin:5px 0;
+  margin: 5px 0;
 }
-#header>p{
-  color:red
+#header p {
+  font-size: 14px;
+  color: red;
+  background-color: #eaeaea;
 }
-#header a{
+#header a {
   text-decoration: none;
-  color:gray;
+  color: gray;
 }
-#header a:hover{
+#header a:hover {
   text-decoration: underline;
 }
-#header img{
-  height:10px;
-  width:80px;
+#header img {
+  height: 15px;
+  width: 90px;
 }
 
 
@@ -840,7 +892,8 @@ html {
   font-size: 18px;
   line-height: 28px;
   width:285px;
-  background-color: #ffc000;
+  /* background-color: #ffc000; */
+  background-color: white;
   padding:10px;
   padding-top: 20px;
 }

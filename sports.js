@@ -161,18 +161,18 @@ article.forEach(function(elem){
 
 
 
-let arr=[{url:"https://www.thehindu.com/incoming/pzjvi/article65338242.ece/alternates/LANDSCAPE_320/WikiLeaks_32414.jpg-063d2.jpg",
-para:"U.K. goverment approves extradition of Julian Assange to U.S, Wikileaks says he will appeal"},
-{url:"https://www.thehindu.com/incoming/4eeus1/article65512036.ece/alternates/LANDSCAPE_100/AFP_32C78Q2.jpg",
-para:"U.S says it 'condemns remarks on prophet made by BJP officials'"},
-{url:"https://www.thehindu.com/incoming/mob4i/article65532467.ece/alternates/LANDSCAPE_100/APTOPIX_Ukraine_Russia_War_99649.jpg-935c4.jpg",
-para:"Ukraine crisis: Leaders of France, Germany and Italy head for Kyivas U.S. pledges more military aid"},
-{url:"https://www.thehindu.com/incoming/xtue23/article65536509.ece/alternates/LANDSCAPE_320/2022-06-17T045048Z_1364658127_RC2FTU9ITNH0_RTRMADP_3_TRADE-WTO.JPG",
-para:"Intellectual property rights waiver falls short of expectation at WTO meeting"},
-{url:"https://www.thehindu.com/news/national/hgxi0q/article65536488.ece/alternates/LANDSCAPE_100/IMG_TH16_KRA_SHEKAWAT_2_1_6K864S6N.jpg",
-para:"BJP appoints 14-member panel to oversee Presidential polls, 'guide' MPs on voting"},
-{url:"https://www.thehindu.com/incoming/x38emt/article65529950.ece/alternates/LANDSCAPE_100/PTI06_15_2022_000163A.jpg",
-para:" Presidential polls | People may ask how Opposition will give capable PM if it can't field strong candidate ..."},
+let arr=[{url:"https://www.thehindu.com/news/national/other-states/8vypgv/article65528294.ece/alternates/SQUARE_115/Costa%20Rica.jpg",
+para:"Costa Rica book place at FIFA World Cup 2022 finals after playoff win"},
+{url:"https://www.thehindu.com/incoming/izyrg7/article65528013.ece/alternates/SQUARE_115/043.jpg",
+para:"Ind vs SA, 3rd T20 | Clinical India Keeps series slive with 48-runs over south Africa'"},
+{url:"https://www.thehindu.com/incoming/sywovw/article65528155.ece/alternates/SQUARE_115/England_Hungary_Nations_League_Soccer_23751.jpg-35ffc.jpg",
+para:"UEFA Nations League | Ruthless Hungary hand dismal England a historic 4-0 home defeat"},
+{url:"https://www.thehindu.com/incoming/bs4uzq/article65527932.ece/alternates/SQUARE_115/2022-06-14T163301Z_812715375_UP1EI6E19YYYA_RTRMADP_3_CRICKET-TEST-ENG-NZL.JPG",
+para:"NZ vs Eng second Test | Jonny Bairstow blasts England to victory over New Zealand"},
+{url:"https://www.thehindu.com/incoming/r67lov/article65529091.ece/alternates/SQUARE_115/Sri_Lanka_Australia_Cricket_12528.jpg-cf6d1.jpg",
+para:"Maxwell leads Austraila to victory over Sri Lanka in 1st ODI"},
+{url:"https://www.thehindu.com/incoming/gqk1te/article65528123.ece/alternates/SQUARE_115/IMG_TH26CHOPRA_2_1_P69RO3AQ.jpg",
+para:" Neeraj betters National mark, takes silver"},
 ]
 
     //   Moving - 1

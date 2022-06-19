@@ -157,3 +157,80 @@ article.forEach(function(elem){
     document.querySelector("#otherarticle").append(cont1);
 
 })
+
+
+let arr=[{url:"https://www.thehindu.com/entertainment/movies/ed2s9r/article65536226.ece/alternates/SQUARE_115/jon.jpeg",
+para:"Jon Snow ‘Game of Thrones’ spin-off series in the works with Kit Harington"},
+{url:"https://www.thehindu.com/entertainment/movies/9otmfg/article65536591.ece/alternates/SQUARE_115/vaashi.jpeg",
+para:"‘Vaashi’ movie review: Never soars above the middling, watchable category"},
+{url:"https://www.thehindu.com/entertainment/movies/favpad/article65526520.ece/alternates/SQUARE_115/4.jpg",
+para:"Why ‘Suzhal’ is a labour of love for Pushkar-Gayatri and team"},
+{url:"https://www.thehindu.com/incoming/wjn8a2/article65536268.ece/alternates/SQUARE_115/TEST_OSCAR_PROG.jpg",
+para:"Oscar Isaac, Julianne Moore to headline Spotify podcast thriller 'Case 63'"},
+{url:"https://www.thehindu.com/entertainment/movies/573wpp/article65532687.ece/alternates/SQUARE_115/ryan.jpeg",
+para:"Ryan Gosling’s first look as Ken from ‘Barbie’ is revealed"},
+{url:"https://www.thehindu.com/entertainment/movies/juuodw/article65532276.ece/alternates/SQUARE_115/aparna87.png",
+para:" Aparna Balamurali: ‘My experience in ‘Soorarai Pottru’ still helps me’"},
+]
+
+    //   Moving - 1
+
+let image=document.querySelector("#moving>img");
+let content=document.querySelector("#moving>p");
+let button=document.querySelectorAll("#moving>button");
+
+button[0].addEventListener("click",display_left)
+let num=0;
+
+function display_left(){
+    if(num==0){
+        num=arr.length-1;
+    }
+    else{
+        num--;
+    }
+    image.src=arr[num].url;
+    content.innerText=arr[num].para;
+}
+
+button[1].addEventListener("click",function(){
+    if(num==arr.length-1){
+        num=0;
+    }
+    else{
+        num++;
+    }
+    image.src=arr[num].url;
+    content.innerText=arr[num].para;
+});
+
+    //   Moving - 2
+
+let image2=document.querySelector("#moving2>img");
+let content2=document.querySelector("#moving2>p");
+let button2=document.querySelectorAll("#moving2>button");
+
+button2[0].addEventListener("click",display_left2)
+let num2=arr.length-1;
+
+function display_left2(){
+    if(num2==0){
+        num2=arr.length-1;
+    }
+    else{
+        num2--;
+    }
+    image2.src=arr[num2].url;
+    content2.innerText=arr[num2].para;
+}
+
+button2[1].addEventListener("click",function(){
+    if(num2==arr.length-1){
+        num2=0;
+    }
+    else{
+        num2++;
+    }
+    image2.src=arr[num2].url;
+    content2.innerText=arr[num2].para;
+});
