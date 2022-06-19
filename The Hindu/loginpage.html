@@ -39,6 +39,8 @@
             color: white;
             border-radius: 3px;
          
+        }h2{
+            text-align: center;
         }
         p{
             text-align: center;
@@ -63,6 +65,8 @@
 </head>
 <body>
     <div id="box">
+
+        <h2>Login </h2>
         <div id="facebook">
            <img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png" alt="fb">
            <p>Continue with facebook</p>
@@ -119,7 +123,7 @@
        let val=document.querySelector("#email").value;
       if(check(val)===true){
           alert("login successful")
-          window.location.href="../Home_page.html"
+          window.location.href="../index.html"
       } else{
           alert("enter correct email address")
       }
