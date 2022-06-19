@@ -1,6 +1,10 @@
 # The_Hindu
 # Team Members
-Ganesh Ganta, Rishabh Mishra, Abhishek Kagale, Trupti Gavit, Madhusudan Prajapat
+Ganesh Ganta, 
+Rishabh Mishra, 
+Abhishek Kagale, 
+Trupti Gavit, 
+Madhusudan Prajapat
 
 About us!
 
