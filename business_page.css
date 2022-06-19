@@ -725,3 +725,15 @@ html {
   /* font-size: 14px; */
   background-color: #eaeaea;
 }
+#tops>div{
+  padding: 3%;
+}
+#tops>div:nth-child(2){
+  padding: 4%;
+}
+#opinion>div p,#opinion>div h1,#opinion>div h2,#opinion>div h3,#opinion>div h4,#opinion>div h5,#opinion>div h6{
+  padding: 2% 3%;
+}
+#opan>div p,#opan>div h1,#opan>div h2,#opan>div h3,#opan>div h4,#opan>div h5,#opan>div h6{
+  padding: 5% 3%;
+}
