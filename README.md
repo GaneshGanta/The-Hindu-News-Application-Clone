@@ -10,6 +10,7 @@ The Hindu is a News Website where u can access the news of local , national and 
 
 ![image](https://user-images.githubusercontent.com/103635175/174490458-f1865d02-0d4b-4bce-8d48-de873ca14e9d.png)
 
+the link of our website you can visit click here https://fluffy-quokka-ee2774.netlify.app/.
 
 In this project we use HTML, CSS and Javascript.
 
