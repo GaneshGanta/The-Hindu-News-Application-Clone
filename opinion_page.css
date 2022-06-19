@@ -1,13 +1,20 @@
+*{
+  margin: 0px;
+
+}
 body{
-  width: 100%;
-  margin: auto;
-  font-size: 1vw;
-  background-color: #eaeaea;
-  font-family: sans-serif;
-}
-#tp img{
-    width: 100%;
-}
+    background-color: #eaeaea;
+  }
+ #tp{
+    width: 75%;
+    margin: auto;
+    font-size: 1vw;
+    background-color: #eaeaea;
+    font-family: sans-serif;
+  }
+  #tp img{
+      width: 100%;
+  }
 
 .same:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
@@ -75,7 +82,7 @@ body{
 #logo {
   margin: 0;
 }
-#logo > img {
+#logo >a> img {
   display: block;
   margin: auto;
   width: 70%;
@@ -96,7 +103,7 @@ body{
 
 /* navbar 2 below Logo */
 #nav2 {
-  /* position: sticky; */
+  position: sticky;
   top:0;
   height: 40px;
   width: 100%;
@@ -106,7 +113,7 @@ body{
   color: gray;
 }
 #left {
-  /* position:sticky; */
+  position:sticky;
   width: 60%;
   display: flex;
   justify-content: space-between;
@@ -555,10 +562,7 @@ p:hover{
 
 }
 
-#foot{
-  width:1000px;
-  margin: auto;
-}
+
 /* footer */
 #foot p{
   padding: 0px;
@@ -750,7 +754,4 @@ html {
   color: gray;
   /* font-size: 14px; */
   background-color: #eaeaea;
-}
-#tops>div{
-  padding-bottom: 20%;
 }

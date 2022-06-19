@@ -41,10 +41,10 @@
   
         <!-- The Hindu Logo -->
         <div id="logo">
-          <img
+          <a href="index.html"><img
             src="https://www.thehindu.com/theme/images/th-online/logo.png"
             alt="main logo error"
-          />
+          /></a>
           <div>
             <p>LATEST NEWS</p>
             <p>SUNDAY, JUNE 19, 2022</p>
@@ -258,7 +258,7 @@
             alt="housing logo error"
           />
         </div>
-        <a href="index.html"><i class="fa-solid fa-house-chimney same"></i></a>
+        <a href="#page"><i class="fa-solid fa-house-chimney same"></i></a>
       </div>
       <div id="bottom">
         <div id="moving">
@@ -547,29 +547,7 @@
   
         </body>
         </html>
-        <script>
-          window.addEventListener('load',function(){
-    document.querySelector('#menuDiv').style.display='none';
-});
-document.querySelector('#menu').addEventListener('click',function(){
-    document.querySelector('#menuDiv').style.display='block';
-    document.querySelector('#menuDiv').style.backgroundColor='#2a5e88';
-    document.querySelector('#tp').style.display='none';
-    document.querySelector('body').style.backgroundColor='#2a5e88';
-    
-});
-document.querySelector('#startClose').addEventListener('click',function(){
-    document.querySelector('#menuDiv').style.display='none';
-    document.querySelector('#tp').style.display='block';
-    document.querySelector('body').style.backgroundColor='#eaeaea';
-});
-document.querySelector('#endClose').addEventListener('click',function(){
-    document.querySelector('#menuDiv').style.display='none';
-    document.querySelector('#tp').style.display='block';
-    document.querySelector('body').style.backgroundColor='#eaeaea';
-    window.location.href='#page';
-});
-        </script>
+        <script src="menu.js"></script>
     <script>
       let arr=[{url:"https://www.thehindu.com/incoming/pzjvi/article65338242.ece/alternates/LANDSCAPE_320/WikiLeaks_32414.jpg-063d2.jpg",
 para:"U.K. goverment approves extradition of Julian Assange to U.S, Wikileaks says he will appeal"},

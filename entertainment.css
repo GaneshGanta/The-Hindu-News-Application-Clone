@@ -74,7 +74,7 @@ body{
 #logo {
   margin: 15px 0;
 }
-#logo > img {
+#logo>a > img {
   display: block;
   margin: auto;
 }

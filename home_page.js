@@ -46,6 +46,13 @@ function remove_ad4(){
     document.querySelector("#box43").innerHTML=""
 }
 
+//    house logo direct to  home page
+
+document.querySelector("#house").addEventListener("click",go_to_home)
+function go_to_home(){
+    window.location.href="http://127.0.0.1:5501/unit-2-construct-week-1_The-Hindu/index.html"
+}
+
 
 //        Sliding Part
 
